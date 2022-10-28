@@ -23,6 +23,15 @@ public class Student {
         setAvgScore();
         setGrade();
     }
+    public void updateStudent(Student updateStudent){
+
+        this.kor = updateStudent.kor;
+        this.eng = updateStudent.eng;
+        this.math = updateStudent.math;
+
+        calculation();
+    }
+
     private int setTotalScore(){
         totalScore = kor + eng + math;
         return totalScore;
@@ -46,7 +55,7 @@ public class Student {
     }
     public void showStudentInfo(){
 
-        System.out.println("[학생 정보 출력]");
+        System.out.println("[현재 학생 정보 출력]");
         System.out.println("이름 : " + name);
         System.out.println("국, 영, 수 : " + kor + ", " + eng + ", " + math);
         System.out.println("총점 : " + totalScore);
@@ -54,4 +63,7 @@ public class Student {
         System.out.println("학점 : " + grade);
     }
 
+    public String getName() {
+        return name;
+    }
 }
