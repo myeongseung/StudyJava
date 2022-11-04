@@ -1,4 +1,4 @@
-package j17_스태틱.싱글톤; //객체 하나만 돌려준다.
+package j17_스태틱.싱글턴; //객체 하나만 돌려준다.
 
 public class ProductView {
     private static ProductView instance = null;
