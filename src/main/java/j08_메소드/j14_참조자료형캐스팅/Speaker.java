@@ -1,4 +1,4 @@
-package j14_참조자료형캐스팅;
+package j08_메소드.j14_참조자료형캐스팅;
 
 public class Speaker implements Power {
     @Override
