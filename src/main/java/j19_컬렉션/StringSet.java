@@ -64,6 +64,7 @@ public class StringSet {
         if(strSet.contains(searchName)){
             strSet.remove(searchName);
             strSet.add("김준이");
+
         }
         System.out.println(strSet);
 
