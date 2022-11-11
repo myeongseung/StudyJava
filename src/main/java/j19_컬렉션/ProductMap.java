@@ -36,7 +36,7 @@ public class ProductMap {
         product.put("productImg",productImgs);
 
         System.out.println(product);
-        List<ProductImg> productImgList = (List<ProductImg>)product.get("productImg");
+        List<ProductImg> productImgList = (List<ProductImg>)product.get("productImg"); //캐스팅
         for(ProductImg productImg : productImgList){
             System.out.println("텀블러이미지" +productImg.getImgCode()+" : " + productImg.getImgName());
         }
