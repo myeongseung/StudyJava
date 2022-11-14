@@ -46,6 +46,7 @@ public class Main {
         Supplier<String> supplier = () -> "공급";
         System.out.println(supplier.get());
 
+
         //Consumer
         Consumer<String> consumer = (name) -> {
             System.out.println("이름 : " + name);
